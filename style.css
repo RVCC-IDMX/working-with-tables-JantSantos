@@ -1,3 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&family=DM+Serif+Text:ital@0;1&display=swap');
+
 body {
-  background-color: aliceblue;
+  background-color: #e0e8f0;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Science Gothic', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #e0e8f0;
+}
+
+header {
+  background-color: #f0f4f8;
+  text-align: center;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px #b0c4de;
+}
+
+header img {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: 0 auto 15px auto;
+  border-radius: 10px;
+}
+
+header p {
+  font-family: 'DM Serif Text', serif;
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin: 0 15px;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 8px;
+}
+
+.table-center {
+  text-align: center;
+  margin: 20px;
+}
+
+.tg caption {
+  caption-side: bottom;
+  font-family: 'DM Serif Text', serif;
+  font-size: 1rem;
+  color: #2c3e50;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tg {
+  margin: 20px auto;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  width: 95%;
+  box-shadow: 0 4px 8px #b0c4de;
+}
+
+.tg th {
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tg td {
+  background-color: #ecf0f1;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tg tr:nth-child(even) td {
+  background-color: #d6eaf8;
+}
+
+.tg td:first-child {
+  font-weight: bold;
+}
+
+.tg td p {
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  header {
+    max-width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+  }
+
+  header img {
+    width: 60px;
+    height: auto;
+    margin: 0 auto 10px auto;
+    display: block;
+  }
+
+  header p {
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-bottom: 6px;
+  }
+
+  .tg {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .tg th, .tg td {
+    padding: 6px;
+    font-size: 13px;
+  }
+
+  caption {
+    font-size: 0.9rem;
+  }
 }
